@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto-Typed javascript </title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="contain">
+        
+        <h1>OH  <span class="auto_typed"> </span></h1>
+        
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto_typed", {
+            strings:[" Ihate programming", " it works!", " I love programming"],
+            typeSpeed:50,
+           
+            loop:true
+        })
+    </script>
+</body>
+</html>
